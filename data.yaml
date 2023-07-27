@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['garden-desert-sand-']
+
+roboflow:
+  workspace: safenaz-swealam-kvipd
+  project: classifications-x3bt2
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/safenaz-swealam-kvipd/classifications-x3bt2/dataset/1
